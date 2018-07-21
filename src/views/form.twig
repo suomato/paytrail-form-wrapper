@@ -1,0 +1,9 @@
+{{ Form.open({'method': 'post', 'url': 'https://payment.paytrail.com/e2'}) }}
+
+  {% for key, field in fields %}
+    {{ Form.hidden(key, field) }}
+  {% endfor %}
+
+  {{ Form.submit(submit_button_text, {'class': submit_button_class }) }}
+
+{{ Form.close() }}

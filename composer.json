@@ -1,0 +1,24 @@
+{
+  "name": "suomato/paytrail-form-wrapper",
+  "description": "Simple PaytrailForm object which helps to create Paytrail Form very fast",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Toni Suomalainen",
+      "email": "toni.suomalainen@taitounited.fi"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "twig/twig": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Suomato\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
