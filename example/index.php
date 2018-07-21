@@ -20,12 +20,12 @@ $paytrail_form = new PaytrailForm(
     /*
      * URL where customer is redirected after successful payment.
      */
-    'URL_SUCCESS'                   => 'http://' . $_SERVER['HTTP_HOST'] . '/example/success.php',
+    'URL_SUCCESS'                   => 'http://' . $_SERVER['HTTP_HOST'] . '/success.php',
 
     /**
      * URL where customer is redirected after failed or cancelled payment.
      */
-    'URL_CANCEL'                    => 'http://' . $_SERVER['HTTP_HOST'] . '/example/cancel.php',
+    'URL_CANCEL'                    => 'http://' . $_SERVER['HTTP_HOST'] . '/cancel.php',
 
     /**
      * URL to be called when the payment has been marked as paid.
